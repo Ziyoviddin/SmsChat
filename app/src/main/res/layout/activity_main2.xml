@@ -32,11 +32,13 @@
         app:layout_constraintStart_toStartOf="parent">
 
         <EditText
+            android:id="@+id/text"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="6" />
 
         <Button
+            android:id="@+id/btnSend"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
